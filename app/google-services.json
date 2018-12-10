@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511411159749",
+    "firebase_url": "https://marsplay-43fcf.firebaseio.com",
+    "project_id": "marsplay-43fcf",
+    "storage_bucket": "marsplay-43fcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511411159749:android:22b9107e097c1800",
+        "android_client_info": {
+          "package_name": "agrawal.bhanu.marplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511411159749-60rg2glrvnt4o0b98iionvq4q2tne6d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "agrawal.bhanu.marplay",
+            "certificate_hash": "3933b02c1c405f84405dbb82a8aab902f6e4cd99"
+          }
+        },
+        {
+          "client_id": "511411159749-dbl877hs8ku495rb5ilj0ndqpr6e6kuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8raImrqPEaNWICcx649SSqbxhFKz58Ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511411159749-dbl877hs8ku495rb5ilj0ndqpr6e6kuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="agrawal.bhanu.photos.MainFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_mainFragment_to_camera"
+            app:destination="@id/camera" />
+        <action
+            android:id="@+id/action_mainFragment_to_imageList"
+            app:destination="@id/imageList" />
+    </fragment>
+    <fragment
+        android:id="@+id/camera"
+        android:name="agrawal.bhanu.photos.upload.ui.Camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_camera_to_uploadImagePreview"
+            app:destination="@id/uploadImagePreview" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageList"
+        android:name="agrawal.bhanu.photos.imagelist.ui.ImageList"
+        android:label="fragment_image_list"
+        tools:layout="@layout/fragment_image_list" >
+        <action
+            android:id="@+id/action_imageList_to_uploadImagePreview"
+            app:destination="@id/uploadImagePreview" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadImagePreview"
+        android:name="agrawal.bhanu.photos.imagelist.ui.preview.ImagePreview"
+        android:label="fragment_upload_image_preview"
+        tools:layout="@layout/fragment_upload_image_preview" ></fragment>
+</navigation>

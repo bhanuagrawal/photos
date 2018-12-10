@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".upload.ui.Camera">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textureLayout"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:orientation="horizontal">
+
+
+
+            <agrawal.bhanu.photos.upload.ui.AutoFitTextureView
+                    android:id="@+id/texture"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/btn_takepicture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:elevation="2dp"
+            android:src="@drawable/ic_camera"
+            android:text="@string/take_picture"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@id/textureLayout"
+            app:layout_constraintLeft_toLeftOf="@id/textureLayout"
+            app:layout_constraintRight_toRightOf="@id/textureLayout" />
+
+
+</android.support.constraint.ConstraintLayout>

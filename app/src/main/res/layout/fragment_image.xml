@@ -1,0 +1,25 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!-- Footer aligned to bottom -->
+
+    <cn.bluemobi.dylan.photoview.library.PhotoView
+        android:id="@+id/capturedImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </cn.bluemobi.dylan.photoview.library.PhotoView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

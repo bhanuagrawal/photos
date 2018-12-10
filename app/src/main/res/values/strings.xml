@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marsplay</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_msg">Could not fetch images</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="camera_error">camera error</string>
+</resources>
